@@ -1,0 +1,6 @@
+vm.txt
+machine type e2-micro.txt
+terraform/.terraform
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
