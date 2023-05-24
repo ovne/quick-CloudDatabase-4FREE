@@ -1,5 +1,4 @@
-vm.txt
-machine type e2-micro.txt
+.gitognore
 terraform/.terraform
 terraform/.terraform.lock.hcl
 terraform/terraform.tfstate

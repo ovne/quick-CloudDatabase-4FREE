@@ -1,5 +1,0 @@
-machine type: e2-micro
-os: debian
-boot disk type:standard persistent disk (MANDATORY)
-size:(up to)30GB
-network tag: "allow-tcp-on-5432" (same as vpc firewall rule)
