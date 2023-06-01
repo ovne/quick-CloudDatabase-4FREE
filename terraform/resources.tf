@@ -79,6 +79,6 @@ resource "google_compute_instance" "postgresql-server" {
     enable_vtpm                 = true
   }
 
-  metadata_startup_script = file("../script.sh")
+  metadata_startup_script = file("../vm-startup-script.sh")
 
 }
