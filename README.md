@@ -2,7 +2,10 @@
 
 O objetivo é disponibilizarar um servidor de banco de dados PostgreSQL pronto para uso na GCP (Google Cloud Platform) gratuitamente e em poucos passos.
 
-Para isso utilizo basicamente Terraform, para automatizar a configuração dos recursos cloud, um shell script para instalar o Docker na vm e por fim subir um container PostgreSQL.  
+Para isso vamos utilizar basicamente:
+ - Terraform - para automatizar a configuração dos recursos cloud.
+ - shell script para instalar Docker na vm. 
+ - Container com instancia PostgreSQL (persistente no volume).  
 
 A utilzação dos recursos GCP sem custos só é possivel dentro das limitações impostas pelo [plano gratuito](https://cloud.google.com/free/docs/gcp-free-tier#always-free) da GCP. Na prática, significava que essa (pequena) infraestrutura não é adequada para qualquer uso em produção, porém, é perfeita para POCs e experimentos, backend de aplicações simples, pipelines de engenharia de dados, etc.
 
